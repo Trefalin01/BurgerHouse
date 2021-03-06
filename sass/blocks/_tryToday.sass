@@ -1,0 +1,81 @@
+
+.try-today
+    min-height: 580px
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    margin: 0 auto
+    margin-top: 80px
+    .is_active
+        transform: translate(0, 0)
+        opacity: 1
+        transition: 0.5s all
+.try-today_itemHeader
+    margin: 0
+    color: #ffffff
+    text-align: left
+    font-size: 20px
+    font-family: 'Bebas Neue'
+.try-today_itemSubheader
+    margin: 0
+    color: #ffffff
+    text-align: left
+    font-size: 50px
+    font-family: 'Bebas Neue'
+    line-height: 50px
+.try-today_popular
+    display: block
+    border: none
+    transform: translate(-150px, 0)
+    opacity: 0
+    width: 600px
+    height: 420px
+    padding: 30px
+    background: url('/img/TryToday/BurgerPopularBg.png') center center/cover no-repeat
+    transition: 0.5s all
+    &:hover
+        cursor: pointer
+        width: 630px
+        height: 430px
+    &:focus
+        outline: none
+        border: none
+.try-today_fun
+    display: block
+    border: none
+    margin-left: 40px
+    transform: translate(150px, 0)
+    opacity: 0
+    width: 600px
+    height: 190px
+    padding: 30px
+    transition: 0.5s all
+    background: url('/img/TryToday/BurgerFunBg.png') center center/cover no-repeat
+    &:hover
+        cursor: pointer
+        width: 620px
+        height: 200px
+    &:focus
+        outline: none
+        border: none
+.try-today_fresh
+    display: block
+    border: none
+    margin-top: 40px
+    margin-left: 40px
+    transform: translate(150px, 0)
+    opacity: 0
+    width: 600px
+    height: 190px
+    padding: 30px
+    transition: 0.5s all
+    background: url('/img/TryToday/BurgerFreshBg.png') center center/cover no-repeat
+    &:hover
+        cursor: pointer
+        width: 620px
+        height: 200px
+    &:focus
+        outline: none
+        border: none
