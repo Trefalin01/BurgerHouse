@@ -278,20 +278,6 @@
     outline: none;
     border: none; }
 
-.is_active {
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-  opacity: 1;
-  -webkit-transition: 0.5s all;
-  transition: 0.5s all; }
-
-.burgers .is-active {
-  opacity: 1;
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-  -webkit-transition: 0.5s all;
-  transition: 0.5s all; }
-
 .burgers-header {
   text-align: center; }
   .burgers-header .is_active {
@@ -320,7 +306,7 @@
 .burgers-header_sub {
   -webkit-transform: translate(0, -130px);
           transform: translate(0, -130px);
-  opacity: 0clead;
+  opacity: 0;
   margin: 0;
   margin-top: 20px;
   color: #3d2514;
@@ -347,16 +333,16 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 50px; }
-  .burgers-info .is-active {
-    opacity: 1;
+  .burgers-info .is_active {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
     -webkit-transition: 0.5s all;
     transition: 0.5s all; }
 
 .burgers-info_block {
-  -webkit-transform: translate(0, 150px);
-          transform: translate(0, 150px);
+  -webkit-transform: translate(0, -250px);
+          transform: translate(0, -250px);
   opacity: 0;
   padding: 20px 0 20px 0;
   -webkit-transition: 0.2s all;
@@ -434,12 +420,24 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+  .visit-flex_wrap .is-active {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 1;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all; }
 
 .visit-map {
+  opacity: 0;
+  -webkit-transform: translate(0, -200px);
+          transform: translate(0, -200px);
   -webkit-box-shadow: -1px 1px 16px 2px rgba(0, 0, 0, 0.2);
           box-shadow: -1px 1px 16px 2px rgba(0, 0, 0, 0.2); }
 
 .visit-text {
+  opacity: 0;
+  -webkit-transform: translate(0, -200px);
+          transform: translate(0, -200px);
   width: 700px; }
 
 .visit-text_header {
@@ -549,7 +547,7 @@ input {
   margin: 3px; }
 
 .hr {
-  border-right: 1px solid #ffffff; }
+  border-right: 1px solid rgba(255, 255, 255, 0.556); }
 
 .footer-dscrp {
   margin-top: 20px;
