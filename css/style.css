@@ -320,7 +320,7 @@
 .burgers-header_sub {
   -webkit-transform: translate(0, -130px);
           transform: translate(0, -130px);
-  opacity: 0;
+  opacity: 0clead;
   margin: 0;
   margin-top: 20px;
   color: #3d2514;
