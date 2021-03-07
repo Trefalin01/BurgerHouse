@@ -48,7 +48,7 @@
   font-weight: 400; }
 .promo {
   height: 818px;
-  background: url("/img/HeaderBg.png") center center/cover no-repeat;
+  background: url("/img/promo/HeaderBg.png") center center/cover no-repeat;
   padding: 50px; }
   .promo .promo-header {
     display: -webkit-box;
@@ -412,7 +412,8 @@
     cursor: pointer; }
 
 .visit {
-  margin-top: 50px; }
+  margin-top: 50px;
+  overflow: hidden; }
 
 .visit-flex_wrap {
   display: -webkit-box;
@@ -429,16 +430,20 @@
 
 .visit-map {
   opacity: 0;
-  -webkit-transform: translate(0, 200px);
-          transform: translate(0, 200px);
+  -webkit-transform: translate(-250px, 0px);
+          transform: translate(-250px, 0px);
   -webkit-box-shadow: -1px 1px 16px 2px rgba(0, 0, 0, 0.2);
-          box-shadow: -1px 1px 16px 2px rgba(0, 0, 0, 0.2); }
+          box-shadow: -1px 1px 16px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all; }
 
 .visit-text {
   opacity: 0;
-  -webkit-transform: translate(0, 200px);
-          transform: translate(0, 200px);
-  width: 700px; }
+  -webkit-transform: translate(250px, 0px);
+          transform: translate(250px, 0px);
+  width: 700px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all; }
 
 .visit-text_header {
   text-align: center;
