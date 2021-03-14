@@ -353,7 +353,7 @@ body {
   transition: 0.2s all; }
   .burgers-info_block:hover {
     cursor: pointer;
-    padding: 0px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
     -webkit-box-shadow: -1px 4px 100px 12px rgba(0, 0, 0, 0.097);
             box-shadow: -1px 4px 100px 12px rgba(0, 0, 0, 0.097); }
 
@@ -563,6 +563,9 @@ input {
   margin-left: 40px; }
 
 @media (max-width: 1630px) {
+  .visit {
+    display: none; }
+
   .promo .promo-info_week .week_burger_span {
     font-size: 60px; }
 
@@ -571,6 +574,12 @@ input {
 
   .promo .promo-info_week .week_dscrp {
     font-size: 25px; }
+
+  .burgers-header_sub {
+    font-size: 35px; }
+
+  .burgers-info_block {
+    height: 600px; }
 
   .burgers-info {
     -webkit-box-orient: vertical;
@@ -581,9 +590,31 @@ input {
         -ms-flex-align: center;
             align-items: center; }
 
+  .burger_shadow {
+    top: 240px;
+    width: 360px; }
+
+  .burgers-info_name {
+    margin-top: 350px; }
+
+  .burger_img {
+    width: 240px; }
+
+  .burgers-info_name {
+    color: #fff; }
+
+  .burgers-info_dscrp {
+    font-size: 15px;
+    color: #fff; }
+
   .burgers-info_block {
     margin-top: 20px;
-    background-color: gray; }
+    background-color: #2e2d2d; }
+    .burgers-info_block:hover {
+      padding: 0;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      cursor: default; }
 
   input {
     width: 250px; }
@@ -667,6 +698,21 @@ input {
   .burgers {
     margin-top: 40px; } }
 @media (max-width: 990px) {
+  .promo {
+    height: 100px; }
+
+  .try-today {
+    margin-top: 20px; }
+
+  .logo_h2 {
+    display: none; }
+
+  .promo-header_nav {
+    display: none; }
+
+  .week_dscrp {
+    display: none; }
+
   .newstler-flex_wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
