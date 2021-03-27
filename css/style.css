@@ -8,27 +8,6 @@
 body {
   overflow-x: hidden; }
 
-@-webkit-keyframes burgers_amim {
-  0% {
-    top: 25px; }
-  100% {
-    top: 5px; } }
-
-@keyframes burgers_amim {
-  0% {
-    top: 25px; }
-  100% {
-    top: 5px; } }
-@-webkit-keyframes shadow_amim {
-  0% {
-    width: 100%; }
-  100% {
-    width: 120%; } }
-@keyframes shadow_amim {
-  0% {
-    width: 100%; }
-  100% {
-    width: 120%; } }
 @font-face {
   src: url("/fonts/AlfaSlabOne-Regular.ttf") format("ttf");
   font-family: "AlfaSlabOne";
@@ -49,9 +28,29 @@ body {
   src: url("/fonts/Montserrat-Regular.ttf") format("ttf");
   font-family: "Montserrat";
   font-weight: 400; }
+@-webkit-keyframes burgers_amim {
+  0% {
+    top: 25px; }
+  100% {
+    top: 5px; } }
+@keyframes burgers_amim {
+  0% {
+    top: 25px; }
+  100% {
+    top: 5px; } }
+@-webkit-keyframes shadow_amim {
+  0% {
+    width: 100%; }
+  100% {
+    width: 120%; } }
+@keyframes shadow_amim {
+  0% {
+    width: 100%; }
+  100% {
+    width: 120%; } }
 .promo {
   height: 818px;
-  background: url("/img/promo/HeaderBg.png") center center/cover no-repeat;
+  background: url("../img/promo/HeaderBg.png") center center/cover no-repeat;
   padding: 50px; }
   .promo .promo-header {
     display: -webkit-box;
@@ -376,7 +375,6 @@ body {
   font-size: 20px; }
 
 .burger_img {
-  margin-left: 40px;
   position: absolute;
   top: 25px; }
   .burger_img:hover {
@@ -394,7 +392,8 @@ body {
 
 .burger_shadow {
   position: absolute;
-  top: 340px; }
+  top: 340px;
+  width: 400px; }
 
 .burgers-info_btn {
   margin: 0 auto;
@@ -561,168 +560,5 @@ input {
 .footer-dscrp {
   margin-top: 20px;
   margin-left: 40px; }
-
-@media (max-width: 1630px) {
-  .visit {
-    display: none; }
-
-  .promo .promo-info_week .week_burger_span {
-    font-size: 60px; }
-
-  .promo .promo-info_week .week_burger {
-    font-size: 110px; }
-
-  .promo .promo-info_week .week_dscrp {
-    font-size: 25px; }
-
-  .burgers-header_sub {
-    font-size: 35px; }
-
-  .burgers-info_block {
-    height: 600px; }
-
-  .burgers-info {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-
-  .burger_shadow {
-    top: 240px;
-    width: 360px; }
-
-  .burgers-info_name {
-    margin-top: 350px; }
-
-  .burger_img {
-    width: 240px; }
-
-  .burgers-info_name {
-    color: #fff; }
-
-  .burgers-info_dscrp {
-    font-size: 15px;
-    color: #fff; }
-
-  .burgers-info_block {
-    margin-top: 20px;
-    background-color: #2e2d2d; }
-    .burgers-info_block:hover {
-      padding: 0;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      cursor: default; }
-
-  input {
-    width: 250px; }
-
-  .newstler-form_btn {
-    width: 170px; }
-
-  .newstler-form {
-    vertical-align: middle; }
-
-  .visit-flex_wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-
-  .visit-text {
-    margin-top: 20px;
-    text-align: center; } }
-@media (max-width: 1200px) {
-  .promo {
-    overflow: hidden;
-    height: 200px; }
-
-  .logo_h2 {
-    font-size: 30px; }
-
-  .logo_img {
-    width: 40px; }
-
-  .nav-sec {
-    width: 400px; }
-
-  .nav-delievery_text {
-    font-size: 16px; }
-
-  .nav-delievery_img {
-    margin-right: 10px;
-    width: 30px; }
-
-  .week_dscrp {
-    font-size: 30px;
-    margin-top: 90px; }
-
-  .week_burger {
-    display: none; }
-
-  .week_burger_span {
-    display: none; }
-
-  .promo-info_combo {
-    display: none; }
-
-  .try-today {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-
-  .try-today_popular {
-    height: 190px;
-    border-radius: 10px;
-    background-position-y: -90px; }
-    .try-today_popular:hover {
-      width: 620px;
-      height: 200px; }
-
-  .try-today_fun {
-    margin-left: 0;
-    border-radius: 10px;
-    margin-top: 20px; }
-
-  .try-today_fresh {
-    margin-left: 0;
-    border-radius: 10px;
-    margin-top: 20px; }
-
-  .burgers {
-    margin-top: 40px; } }
-@media (max-width: 990px) {
-  .promo {
-    height: 100px; }
-
-  .try-today {
-    margin-top: 20px; }
-
-  .logo_h2 {
-    display: none; }
-
-  .promo-header_nav {
-    display: none; }
-
-  .week_dscrp {
-    display: none; }
-
-  .newstler-flex_wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-
-  .newstler-form {
-    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
