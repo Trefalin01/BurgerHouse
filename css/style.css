@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   text-decoration: none; }
@@ -28,21 +27,11 @@ body {
   src: url("/fonts/Montserrat-Regular.ttf") format("ttf");
   font-family: "Montserrat";
   font-weight: 400; }
-@-webkit-keyframes burgers_amim {
-  0% {
-    top: 25px; }
-  100% {
-    top: 5px; } }
 @keyframes burgers_amim {
   0% {
     top: 25px; }
   100% {
     top: 5px; } }
-@-webkit-keyframes shadow_amim {
-  0% {
-    width: 100%; }
-  100% {
-    width: 120%; } }
 @keyframes shadow_amim {
   0% {
     width: 100%; }
@@ -53,19 +42,11 @@ body {
   background: url("../img/promo/HeaderBg.png") center center/cover no-repeat;
   padding: 50px; }
   .promo .promo-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .promo .promo-header_logo {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
+      align-items: center; }
       .promo .promo-header_logo .logo_img {
         margin-right: 20px; }
       .promo .promo-header_logo .logo_h2 {
@@ -87,12 +68,8 @@ body {
       font-size: 20px;
       text-decoration: none; }
     .promo .promo-header_nav .nav-sec {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      justify-content: space-between;
       margin-top: 20px;
       width: 500px; }
       .promo .promo-header_nav .nav-sec_item {
@@ -103,21 +80,14 @@ body {
         font-size: 20px;
         text-decoration: none; }
   .promo .promo-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .promo .promo-info .is_active {
-      -webkit-transform: translate(0, 0);
-              transform: translate(0, 0);
+      transform: translate(0, 0);
       opacity: 1;
-      -webkit-transition: 0.5s all;
       transition: 0.5s all; }
     .promo .promo-info_week {
-      -webkit-transform: translate(-400px);
-              transform: translate(-400px);
+      transform: translate(-400px);
       opacity: 0; }
       .promo .promo-info_week .week_dscrp {
         margin-top: 100px;
@@ -142,8 +112,7 @@ body {
         font-size: 100px; }
     .promo .promo-info_combo {
       position: relative;
-      -webkit-transform: translate(400px);
-              transform: translate(400px);
+      transform: translate(400px);
       opacity: 0; }
       .promo .promo-info_combo .combo_price {
         position: absolute;
@@ -173,34 +142,21 @@ body {
         .promo .promo-info_combo .combo_price_span {
           margin-top: 3px;
           font-size: 40px;
-          -ms-flex-line-pack: center;
-              align-content: center; }
+          align-content: center; }
 
 .try-today {
   min-height: 580px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   margin-top: 80px;
   overflow: hidden; }
   .try-today .is_active {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
+    transform: translate(0, 0);
     opacity: 1;
-    -webkit-transition: 0.5s all;
     transition: 0.5s all; }
 
 .try-today_itemHeader {
@@ -221,14 +177,12 @@ body {
 .try-today_popular {
   display: block;
   border: none;
-  -webkit-transform: translate(-150px, 0);
-          transform: translate(-150px, 0);
+  transform: translate(-150px, 0);
   opacity: 0;
   width: 600px;
   height: 420px;
   padding: 30px;
-  background: url("/img/TryToday/BurgerPopularBg.png") center center/cover no-repeat;
-  -webkit-transition: 0.5s all;
+  background: url("../img/TryToday/BurgerPopularBg.png") center center/cover no-repeat;
   transition: 0.5s all; }
   .try-today_popular:hover {
     cursor: pointer;
@@ -242,15 +196,13 @@ body {
   display: block;
   border: none;
   margin-left: 40px;
-  -webkit-transform: translate(150px, 0);
-          transform: translate(150px, 0);
+  transform: translate(150px, 0);
   opacity: 0;
   width: 600px;
   height: 190px;
   padding: 30px;
-  -webkit-transition: 0.5s all;
   transition: 0.5s all;
-  background: url("/img/TryToday/BurgerFunBg.png") center center/cover no-repeat; }
+  background: url("../img/TryToday/BurgerFunBg.png") center center/cover no-repeat; }
   .try-today_fun:hover {
     cursor: pointer;
     width: 620px;
@@ -264,15 +216,13 @@ body {
   border: none;
   margin-top: 40px;
   margin-left: 40px;
-  -webkit-transform: translate(150px, 0);
-          transform: translate(150px, 0);
+  transform: translate(150px, 0);
   opacity: 0;
   width: 600px;
   height: 190px;
   padding: 30px;
-  -webkit-transition: 0.5s all;
   transition: 0.5s all;
-  background: url("/img/TryToday/BurgerFreshBg.png") center center/cover no-repeat; }
+  background: url("../img/TryToday/BurgerFreshBg.png") center center/cover no-repeat; }
   .try-today_fresh:hover {
     cursor: pointer;
     width: 620px;
@@ -284,15 +234,12 @@ body {
 .burgers-header {
   text-align: center; }
   .burgers-header .is_active {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
+    transform: translate(0, 0);
     opacity: 1;
-    -webkit-transition: 0.5s all;
     transition: 0.5s all; }
 
 .burgers-header_head {
-  -webkit-transform: translate(0, 130px);
-          transform: translate(0, 130px);
+  transform: translate(0, 130px);
   opacity: 0;
   margin: 0 auto;
   text-align: center;
@@ -307,8 +254,7 @@ body {
   color: #3d2514; }
 
 .burgers-header_sub {
-  -webkit-transform: translate(0, 130px);
-          transform: translate(0, 130px);
+  transform: translate(0, 130px);
   opacity: 0;
   margin: 0;
   margin-top: 20px;
@@ -318,8 +264,7 @@ body {
   font-size: 75px; }
 
 .burgers-header_dscrp {
-  -webkit-transform: translate(0, 130px);
-          transform: translate(0, 130px);
+  transform: translate(0, 130px);
   opacity: 0;
   margin: 0;
   margin-top: 20px;
@@ -330,31 +275,23 @@ body {
 
 .burgers-info {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-top: 50px; }
   .burgers-info .is_active {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
+    transform: translate(0, 0);
     opacity: 1;
-    -webkit-transition: 0.5s all;
     transition: 0.5s all; }
 
 .burgers-info_block {
-  -webkit-transform: translate(0, 250px);
-          transform: translate(0, 250px);
+  transform: translate(0, 250px);
   opacity: 0;
   padding: 20px 0 20px 0;
-  -webkit-transition: 0.2s all;
   transition: 0.2s all; }
   .burgers-info_block:hover {
     cursor: pointer;
     padding: 20px 20px 0px 20px;
-    -webkit-box-shadow: -1px 4px 100px 12px rgba(0, 0, 0, 0.097);
-            box-shadow: -1px 4px 100px 12px rgba(0, 0, 0, 0.097); }
+    box-shadow: -1px 4px 100px 12px rgba(0, 0, 0, 0.097); }
 
 .burgers-info_name {
   margin: 0;
@@ -378,16 +315,11 @@ body {
   position: absolute;
   top: 25px; }
   .burger_img:hover {
-    -webkit-animation-name: burgers_amim;
-            animation-name: burgers_amim;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-name: burgers_amim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
     cursor: pointer; }
 
 .burger_shadow {
@@ -409,7 +341,6 @@ body {
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 3px;
-  -webkit-transition: 0.5s all;
   transition: 0.5s all; }
   .burgers-info_btn:hover {
     cursor: pointer; }
@@ -418,34 +349,24 @@ body {
   overflow-x: hidden; }
 
 .visit-flex_wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-top: 50px; }
   .visit-flex_wrap .is_active {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
+    transform: translate(0, 0);
     opacity: 1;
-    -webkit-transition: 0.5s all;
     transition: 0.5s all; }
 
 .visit-map {
   opacity: 0;
-  -webkit-transform: translate(-250px, 0px);
-          transform: translate(-250px, 0px);
-  -webkit-box-shadow: -1px 1px 16px 2px rgba(0, 0, 0, 0.2);
-          box-shadow: -1px 1px 16px 2px rgba(0, 0, 0, 0.2);
-  -webkit-transition: 0.5s all;
+  transform: translate(-250px, 0px);
+  box-shadow: -1px 1px 16px 2px rgba(0, 0, 0, 0.2);
   transition: 0.5s all; }
 
 .visit-text {
   opacity: 0;
-  -webkit-transform: translate(250px, 0px);
-          transform: translate(250px, 0px);
+  transform: translate(250px, 0px);
   width: 700px;
-  -webkit-transition: 0.5s all;
   transition: 0.5s all; }
 
 .visit-text_header {
@@ -468,15 +389,9 @@ body {
   min-height: 150px; }
 
 .newstler-flex_wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  align-items: center;
+  justify-content: space-between; }
 
 .newstler-header {
   font-family: "Alfa Slab One";
@@ -496,7 +411,6 @@ input {
   width: 400px;
   height: 60px;
   margin: 10px;
-  -webkit-transition: 0.2s all;
   transition: 0.2s all; }
   input:hover {
     border: 2px solid #ffffff; }
@@ -528,19 +442,10 @@ input {
   min-height: 150px; }
 
 .footer-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .footer-icons_link {
   margin-left: 40px; }
